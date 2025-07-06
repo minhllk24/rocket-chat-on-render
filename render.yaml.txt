@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: rocket-chat
+    env: docker
+    plan: free
+    autoDeploy: true
